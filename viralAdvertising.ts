@@ -2,7 +2,7 @@ function viralAdvertising(n: number): number {
   // Write your code here
 
   let cumulative = 0
-  let shared = n
+  let shared = 5
   let liked = 0
 
   for (let i = 0; i < n; i++) {
@@ -19,4 +19,4 @@ function viralAdvertising(n: number): number {
   return cumulative
 }
 
-console.log(viralAdvertising(5))
+console.log(viralAdvertising(3))
