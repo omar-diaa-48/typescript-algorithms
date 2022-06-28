@@ -24,4 +24,4 @@ function validAnagram(str1: string, str2: string): boolean {
 	return true;
 }
 
-console.log(validAnagram('aaaz', 'azaa'));
+console.log(validAnagram('', ''));
